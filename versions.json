@@ -1,0 +1,71 @@
+{
+  "scripts": {
+    "lrd_pausemenu": {
+      "latest_version": "1.0.5",
+      "download": "https://portal.cfx.re/assets/granted-assets?search=lrd_pausemenu",
+      "description": "Advanced pause menu system with multi-framework support and modern UI",
+      "versions": {
+        "1.0.5": {
+          "date": "2025-10-19",
+          "mandatory": true,
+          "hotfix": true,
+          "changes": [
+            "Correction of the key to open the Pause Menu"
+          ]
+        },
+        "1.0.2": {
+          "date": "2025-01-19",
+          "mandatory": true,
+          "hotfix": true,
+          "changes": [
+            "Fix stats card titles localization",
+            "Add missing stats translations to all locale files",
+            "Update config to use locale system for stats titles",
+            "Fix Gilroy font MIME type error",
+            "Replace CSS imports with @font-face declarations",
+            "Add support for 6 languages (EN, FR, ES, DE, IT, PT)"
+          ]
+        },
+        "1.0.1": {
+          "date": "2025-08-19",
+          "mandatory": false,
+          "hotfix": true,
+          "changes": [
+            "Add version_checker",
+            "Remove unused comments",
+            "Refactor script security",
+            "Optimize script",
+            "Change fxmanifest path",
+            "Refactor Disconnect Modal",
+            "Change gradient of the script"
+          ]
+        },
+        "1.0.0": {
+          "date": "2025-08-18",
+          "mandatory": true,
+          "hotfix": false,
+          "changes": ["Initial Version"]
+        }
+      }
+    },
+    "lrd_loadingscreen": {
+        "latest_version": "1.0.1",
+        "download": "https://portal.cfx.re/assets/granted-assets?search=lrd_pausemenu",
+        "description": "Advanced loading screen support and modern UI",
+        "versions": {
+          "1.0.0": {
+            "date": "2025-09-27",
+            "mandatory": true,
+            "hotfix": false,
+            "changes": ["Initial Version"]
+          },
+          "1.0.1": {
+            "date": "2025-10-03",
+            "mandatory": true,
+            "hotfix": false,
+            "changes": ["Fix Some Bugs and Add Optimization"]
+          }
+        }
+      }
+  }
+}
